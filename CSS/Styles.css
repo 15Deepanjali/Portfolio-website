@@ -1,6 +1,6 @@
-Email-button{
-    background-color: blue;
-    color: white;
-    font-size: 16px;
-    padding: 10px 20px;
+.logo{
+    width:64px; 
+    height:64px;
+    text-align:left;
+    margin:16px;
 }
