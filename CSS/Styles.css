@@ -1,3 +1,10 @@
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+}
+
+
 .logo{
     width:64px; 
     height:64px;
@@ -5,8 +12,53 @@
     margin:16px;
 }
 
+
 .button{
+    color: white;
+    background-color: #16355d;
+    padding: 12px 18px;
+    border-radius: 5%;
+    text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px
+}
+
+.button:hover{
+    background-color:#16355d;
+    color: aqua;
+}
+
+.button0{
+    box-sizing: width=16px height=8px;
+    border: 2px solid #16355d;
+    background-color: transparent; 
     color: black;
-    background-color: gray;
-    padding: 12px;
+    padding: 8px 10px;
+    text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.button0:hover{
+    background-color:#16355d;
+    color: aqua;
+}
+
+
+
+.button1{
+  border: 2px solid #16355d;
+    background-color: transparent; 
+  border-radius: 5px;
+  color: black;
+  padding: 12px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.button1:hover{
+        background-color:#16355d;
+        color: aqua;
 }
