@@ -1,3 +1,63 @@
+.navbar {
+    background: linear-gradient(90deg, rgb(72, 148, 242), rgb(122, 243, 238));
+    padding: 10px;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    position: relative;
+}
+/*layout styling*/
+.container{
+    padding: 20px;
+}
+
+
+
+.logo img {
+    height: 50px; /* Adjust the height as needed */
+    position: relative;
+}
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    display:flex ;
+    justify-content: right;
+    flex-grow: 1;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #f4efef;
+    position: relative;
+}
+
+.container1{
+    background: linear-gradient(90deg, rgb(141, 183, 235), rgb(173, 247, 244));
+    margin: 15px;
+    padding: 10px;
+}
+
+.nav-list1{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+    flex-grow: 1;
+}
+.nav-item {
+    margin: 0 10px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    position: relative;
+}
+
+
 /* Applying font to the body */
 body {
     font-family: 'Open Sans', sans-serif;
@@ -40,8 +100,12 @@ body {
     text-align:left;
     margin:16px;
 }
-
-
+#hero {
+    background-color: #83b6f0;
+    margin: 15px;
+    padding: 10px;
+    text-align: left;
+  }
 .button{
     color: white;
     background-color: #16355d;
@@ -59,7 +123,6 @@ body {
 }
 
 .button0{
-    box-sizing: width=16px height=8px;
     border: 2px solid #16355d;
     background-color: transparent; 
     color: black;
@@ -80,15 +143,22 @@ body {
   border: 2px solid #16355d;
     background-color: transparent; 
   border-radius: 5px;
+  width: 45px;
+  height: 25px;
   color: black;
-  padding: 12px 18px;
+  padding: 20px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: flex;
   font-size: 16px;
 }
 
 .button1:hover{
         background-color:#16355d;
         color: aqua;
+}
+
+.copyright {
+    float: right;
+    margin-top: 20px;
 }
