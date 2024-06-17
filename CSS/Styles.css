@@ -91,6 +91,7 @@ body {
 }
 #hero {
     background-color: #83b6f0;
+    display: block;
     height: auto;
     margin: 15px;
     padding: 10px;
@@ -147,6 +148,7 @@ body {
 .button-wrapper{
     clear: both;
 }
+
 
 .contact-container {
     background:linear-gradient(90deg, rgb(141, 183, 235), rgb(173, 247, 244));
