@@ -180,6 +180,15 @@ body {
         margin: 10px;  
 
 }
+.box{ 
+    clear: both; 
+    padding: 20px; 
+    margin: 10px;  
+}
+.thankyou{
+    text-align: center;
+}
+
 .img1{
     margin: 0 auto;
 }

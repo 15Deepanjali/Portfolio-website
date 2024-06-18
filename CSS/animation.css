@@ -1,0 +1,36 @@
+#flower{
+    animation: flower 2s ease;
+
+}
+
+
+@keyframes flower{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+
+
+#smiley{
+    animation: spin 4s linear infinite; /* Adjust animation duration as needed */
+    transform-origin: center; /* Rotate around the center of the image */
+  }
+  
+  @keyframes spin {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  #paperplane{
+    animation: animate 12s linear infinite; 
+  }
+  
+  @keyframes animate {
+    0% {
+      transform: rotate(360deg);
+    }
+  }
