@@ -108,12 +108,19 @@ body {
     text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px
+  font-size: 16px;
+  transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0.1s;
+
 }
 
 .button:hover{
     background-color:#16355d;
     color: aqua;
+    transform: translateY(-10px);
+    
 }
 
 .button0{
@@ -125,12 +132,16 @@ body {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  transition:0.3s opacity;
+  transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0.1s;
+
 }
 .button0:hover{
-    opacity: 0.8;
     background-color:#16355d;
     color: aqua;
+    transform: translateY(-10px);
 }
 
 
@@ -200,13 +211,16 @@ body {
   text-decoration: none;
   display: flex;
   font-size: 16px;
-  transition:0.3s opacity;
+ transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0.1s;
 }
 
 .button1:hover {
     background-color:#16355d;
         color: aqua;
-        opacity: 0.9;
+        transform: translateY(-10px);
 }
 
 footer {
