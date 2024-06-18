@@ -11,6 +11,7 @@
 .col-lg-11,.col-m-11 {width: 91.66%;}
 .col-lg-12, .col-m-12 {width: 100%;}
 
+
 .row {
     display: flex;
     flex-direction: row;
