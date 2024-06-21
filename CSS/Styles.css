@@ -385,3 +385,84 @@ footer {
         
             
     }
+
+
+    .menu-container {
+        position: relative;
+    }
+
+    .menu-icon {
+        font-size: 30px;
+        cursor: pointer;
+        display: none; /* Hide by default on larger screens */
+    }
+
+    .menu {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+    }
+
+    .menu li {
+        margin: 0 10px;
+    }
+
+    @media screen and (max-width: 640px) {
+        .menu {
+            display: none; /* Hide menu items by default on mobile */
+            flex-direction: column;
+        }
+
+        .menu-icon {
+            display: block; /* Show the hamburger icon on mobile */
+        }
+
+        .menu.open {
+            display: flex; /* Show the menu when toggled */
+        }
+    }
+/* Example styles for the mobile menu */
+.nav-list {
+    display: none; /* Initially hide the menu on small screens */
+}
+.open {
+    display: block; /* Show the menu when 'open' class is added */
+}
+/* Style for the hamburger icon */
+.menu-icon {
+    display: block; /* Show the hamburger icon */
+    cursor: pointer; /* Add cursor pointer for better UX */
+}
+/* Style for the logo */
+.logo {
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+}
+.nav-item {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically */
+    height: 100vh; /* Adjust height as needed */
+}
+
+.row {
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically */
+}
+
+.col {
+    text-align: center; /* Centers items horizontally within the column */
+}
+
+.Thankyou {
+    max-width: 100%; /* Ensures image does not exceed container width */
+    height: auto; /* Maintains aspect ratio */
+}
