@@ -184,7 +184,7 @@ body {
   }
  
   .button{
-    color: white;
+    color: #ffffff;
     background-color: #16355d;
     padding: 12px 18px;
     border-radius: 5%;
@@ -221,7 +221,7 @@ transform: translateY(-10px);
 }
 .button0:hover{
 background-color:#16355d;
-color: aqua;
+color: #00ffff;
 transform: translateY(-10px);
 }
 
@@ -255,12 +255,7 @@ width: 100%;
   .container {
     padding: 0 15px;
   }
-  footer {
-        background-color: linear-gradient(90deg, rgb(141, 183, 235), rgb(173, 247, 244));
-        color: #011c34;
-        padding: 0px;
-        text-align: center;
-    }
+  
 .contact-container {
         background:linear-gradient(90deg, rgb(141, 183, 235), rgb(173, 247, 244));
         width: 100%;
@@ -306,8 +301,8 @@ width: 100%;
 
   #hero h2 {
     text-align: center; 
-    margin:  -10px 0 0 0;
-    padding: -10px 0 0 0;
+    margin:  10px 0 0 0;
+    padding: 10px 0 0 0;
     display: inline-block;
     width: 100%;
     font-weight: 400;
