@@ -64,6 +64,13 @@ header {
         width: 100%;
     }
 
+
+  .logo {
+    max-width: 60px;
+    padding: 5px;
+  }
+
+
 nav {
   display: inline-block;
   width: 100%;
